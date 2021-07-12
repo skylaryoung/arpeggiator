@@ -1,4 +1,4 @@
-
+#include <Arduino.h>
 #include <TimerOne.h>
 #include "engine.h"
 arp a(C, 5, 2, 6, 200, c_harmonic, 0);
