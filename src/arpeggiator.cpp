@@ -5,20 +5,20 @@ arp a(C, 5, 2, 6, 200, c_harmonic, 0);
 bool button_pressed;
 int ButtonVal;
 
-#define baseNotepin 1
-#define baseOctavepin 5
 #define octaveShiftpin 0
-#define stepspin 4
-#define indelaypin 3
-#define orderpin 7
-#define modepin 6
+#define baseNotepin 1
+#define indelaypin 2
 #define syncinpin 3
+#define stepspin 4
+#define baseOctavepin 5
+#define modepin 6
+#define orderpin 7
 
-#define LEDPin 13
+#define LEDPin 5
 
 // Synchronization: choose one of two possible options:
-#define EXT_SYNC
-//#define INT_SYNC
+//#define EXT_SYNC
+#define INT_SYNC
 
 void readPoties()
 {
