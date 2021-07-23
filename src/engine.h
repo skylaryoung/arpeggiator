@@ -11,6 +11,8 @@ typedef enum {maj, minor, dim, aug} chord_types;
 #define c_harmonic    6
 #define c_locrian     7
 
+#define INT_SYNC
+
 typedef struct {
     short Shift;
     chord_types chord_type;
